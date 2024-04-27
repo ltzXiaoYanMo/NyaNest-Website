@@ -1,4 +1,4 @@
-# nyanest-website
+# NyaNest-Website
 
 猫窝 NyaNest 官网。 || Powered by VitePress
 
