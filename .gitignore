@@ -7,3 +7,5 @@ package-lock.json
 bun.lockb
 # 构建输出
 init/.vitepress/dist/
+# cache
+init/.vitepress/cache/
