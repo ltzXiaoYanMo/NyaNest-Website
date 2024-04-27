@@ -15,14 +15,14 @@ bun install
 ```bash
 bun run dev:docs
 ```
-投入开发环境：
-### 此处仅笼统描述，具体请查看 VitePress 官方编译文档。链接：<https://vitepress.dev/zh/guide/deploy>。
-编译：
+### 投入开发环境：
+##### 此处仅笼统描述，具体请查看 VitePress 官方编译文档。链接：<https://vitepress.dev/zh/guide/deploy>。
+### 编译：
 ```bash
 bun run docs:build
 ```
 存放的文件将会在`/init/.vitepress/dist`中。
-## Cloudflare Pages
+## 使用 Cloudflare Pages 部署
 框架预设：无<br>
 构建命令：`bun run docs:build`<br>
 部署输出目录：`/init/.vitepress/dist`
