@@ -1,0 +1,9 @@
+# JetBrains IDEs
+.idea/
+# 依赖项
+node_modules/
+# Bun 产生的文件
+package-lock.json
+bun.lockb
+# 构建输出
+init/.vitepress/dist/
