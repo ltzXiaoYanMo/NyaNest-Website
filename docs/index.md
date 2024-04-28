@@ -5,14 +5,15 @@ layout: home
 hero:
   name: "猫窝 NyaNest"
   text: "Nya~"
+  image: /favicon.png
   tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /markdown-examples/
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /api-examples/
 
 features:
   - title: Feature A
@@ -22,3 +23,6 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 --- 
+<script>
+  
+</script>
