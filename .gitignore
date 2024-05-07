@@ -1,9 +1,8 @@
-# JetBrains IDEs
-.idea/
-# 依赖项
+.DS_Store
+Thumbs.db
+db.json
+*.log
 node_modules/
-# 构建输出
-docs/.vitepress/dist/
-# cache
-docs/.vitepress/cache/
-yarn.lock
+public/
+.deploy*/
+_multiconfig.yml
