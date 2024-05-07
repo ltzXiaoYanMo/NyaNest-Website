@@ -8,13 +8,13 @@ subtitle: 'Nya~'
 description: ''
 keywords:
 author: NyaNest_Team
-language: en
+language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://nyanest.xyz
-permalink: :year/:month/:day/:title/
+permalink: /archives/:title-/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -101,7 +101,10 @@ theme: particlex
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: 'https://github.com/ltzXiaoYanMo/NyaNest-WebSite.git'
+  branch: 'site'
+  message: 'add(site): update a new site post'
 
 # Hexo 会自动生成年度月度归档，可是 ParticleX 主题没有这个功能。
 archive_generator:
