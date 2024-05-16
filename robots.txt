@@ -2,4 +2,4 @@
 User-agent: *
 
 User-agent: Amazonbot             # Amazon's user agent
-Disallow: /do-not-crawl/          # disallow this directory
+Disallow: /          # disallow this directory
